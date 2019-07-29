@@ -1,4 +1,7 @@
 from django.db import models
+from django.contrib.postgres.fields import JSONField
 
-class User(models.Model):
-    name = models.CharField(max_length=50)
+class Map(models.Model):
+    team_score = models.IntegerField(default=0)
+    map = JSONField()
+    team_position = JSONField()
