@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class TreasurehuntConfig(AppConfig):
-    name = 'TreasureHunt'
+    name = 'treasurehunt'
