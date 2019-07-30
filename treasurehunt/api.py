@@ -9,4 +9,4 @@ class MapSerializer(serializers.HyperlinkedModelSerializer):
 
 class MapViewSet(viewsets.ModelViewSet):
     serializer_class = MapSerializer
-    queryset = MapSerializer.objects.all()
+    queryset = Map.objects.all()
